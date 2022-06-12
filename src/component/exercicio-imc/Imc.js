@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "../Styles";
 
 const Imc = (e) => {
   const [peso, setPeso] = React.useState(0);
@@ -38,6 +39,9 @@ const Imc = (e) => {
         <button>Calcular</button>
       </form>
       <h2>O seu IMC é: {imc}</h2>
+      <Container>
+        <h3>Contador</h3>
+      </Container>
     </div>
   );
 };
