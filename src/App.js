@@ -1,12 +1,10 @@
-import "./component/Style.css";
 import React from "react";
-import Exemple from "./component/exemplo-useffect/Exemple";
-import Imc from "./component/exercicio-imc/Imc";
+import Form from "./component/exercicio-form/Form";
 
 const App = () => {
   return (
     <>
-      <Imc />
+      <Form />
     </>
   );
 };

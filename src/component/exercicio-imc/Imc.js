@@ -36,7 +36,7 @@ const Imc = (e) => {
           onChange={changeAltura}
         />
         <br />
-        <button>Calcular</button>
+        <button className="myButton">Calcular</button>
       </form>
       <h2>O seu IMC é: {imc}</h2>
       <Container>
