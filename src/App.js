@@ -1,10 +1,10 @@
 import React from "react";
-import Form from "./component/exercicio-form/Form";
+import Checkbox from "./component/exemplo-checkbox/Checkbox";
 
 const App = () => {
   return (
     <>
-      <Form />
+      <Checkbox />
     </>
   );
 };
