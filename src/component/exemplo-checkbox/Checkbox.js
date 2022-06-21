@@ -1,14 +1,11 @@
 import React from "react";
-import { Input, Label } from "../Styles";
 
 const Checkbox = () => {
-  const [termos, setTermos] = React.useState(null);
-
   const [cores, setCores] = React.useState([]);
 
   function handleChange({ target }) {
     if (target.checked) {
-      setTermos([...cores, target.value]);
+      setCores([...cores, target.value]);
     } else {
       setCores(cores.filter((cor) => cor !== target.value));
     }

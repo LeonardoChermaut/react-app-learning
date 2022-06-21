@@ -1,10 +1,12 @@
 import React from "react";
-import Checkbox from "./component/exemplo-checkbox/Checkbox";
+import Form from "./component/exercicio-form/Form";
+import Navbar from "./component/Navbar/Navbar";
 
 const App = () => {
   return (
     <>
-      <Checkbox />
+      <Navbar />
+      <Form />
     </>
   );
 };
